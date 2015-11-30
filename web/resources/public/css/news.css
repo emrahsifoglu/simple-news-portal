@@ -1,0 +1,15 @@
+.control-group{
+    width: 700px;
+}
+
+.form-news-control {
+    width: 400px;
+}
+
+#form-news #_title {
+    width: 200px;
+}
+
+#form-news textarea {
+    resize: none;
+}

@@ -1,0 +1,12 @@
+.crud {
+    width: 16px;
+    height: 16px;
+}
+
+.hr {
+    border: 0;
+    width: 100%;
+    color: #282927;
+    background-color: #d5cadb;
+    height: 5px;
+}

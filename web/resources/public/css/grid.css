@@ -1,0 +1,91 @@
+table.grid a {
+    color: rgba(40, 41, 39, 0.94); text-decoration: none;
+}
+
+table.grid a:hover {
+    text-decoration: underline;
+}
+
+table.grid {
+    border-collapse: collapse; border: 1px solid #CCB;
+}
+
+table.grid td,
+table.grid th {
+    padding: 5px; border: 1px solid #E0E0E0;
+}
+
+table.grid th {
+    background: #E5E5E5; text-align: left;
+}
+
+table.grid td.number {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+table.grid td.boolean {
+    text-align: center;
+}
+
+table.grid th.boolean {
+    text-align: center;
+}
+
+.filter {
+    width: 16px;
+    height: 16px;
+}
+
+.crud {
+    width: 16px;
+    height: 16px;
+}
+
+.sort {
+    color: black;
+    text-decoration: underline;
+}
+
+.glow {
+    outline: none;
+    mso-font-width: bold;
+    font-weight: bold;
+}
+
+.paginate {
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    text-align: center;
+}
+
+.paginate li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin-right: 1px;
+    width: 30px;
+    text-align: center;
+    background: #4CC2AF;
+    line-height: 25px;
+}
+
+.paginate .active {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin-right: 1px;
+    width: 30px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #666666;
+}
+
+.paginate li a{
+    font-size:12px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
